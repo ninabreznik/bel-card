@@ -1,0 +1,33 @@
+{
+  "name": "bel-card",
+  "version": "1.0.0",
+  "description": "Two-sided card that switches sides on hover",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browserify example.js > bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninabreznik/bel-card.git"
+  },
+  "keywords": [
+    "bel",
+    "csjs",
+    "card",
+    "gallery"
+  ],
+  "author": "@ninabreznik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ninabreznik/bel-card/issues"
+  },
+  "homepage": "https://github.com/ninabreznik/bel-card#readme",
+  "devDependencies": {
+    "browserify": "^14.3.0"
+  },
+  "dependencies": {
+    "bel": "^4.6.1",
+    "csjs-inject": "^1.0.1"
+  }
+}
