@@ -104,7 +104,7 @@ function card (data) {
   ---------------------------------------------------------- */
   var name              = data.name || 'Example name'
   var username          = data.username || 'exampleusername'
-  var cardText          = data.cardText || 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. '
+  var cardText          = data.cardText || 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostru'
   var imageUrl          = data.imageUrl || 'https://nomadlist.com/assets/img/cities/phuket-thailand-500px.jpg'
   var twitter           = `https://twitter.com/${username}`
   var github            = `https://github.com/${username}`
