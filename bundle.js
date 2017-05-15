@@ -161,9 +161,6 @@ var css = csjs`
   height: 280px;
   padding: 1em;
 }
-.card:hover {
-  cursor: pointer;
-}
 .cardContainer,
 .cardContainer_hover {
   display: flex;
@@ -209,6 +206,9 @@ var css = csjs`
   font-size: 2em;
   padding: .3em;
 }
+.cardSocial_fontawesome:hover {
+  opacity: 0.9;
+}
 .cardProjects {
   margin-top: .8em;
   padding: .5em 1em;
@@ -217,6 +217,10 @@ var css = csjs`
   border-radius: 3px;
   background-color: ${green};
   color: white;
+}
+.cardProjects:hover {
+  opacity: 0.9;
+  cursor: pointer;
 }
 @keyframes transitionIn {
   0% {opacity: 0.1}
@@ -231,7 +235,7 @@ function card (data) {
   ---------------------------------------------------------- */
   var name              = data.name || 'Example name'
   var username          = data.username || 'exampleusername'
-  var cardText          = data.cardText || 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. '
+  var cardText          = data.cardText || 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostru'
   var imageUrl          = data.imageUrl || 'https://nomadlist.com/assets/img/cities/phuket-thailand-500px.jpg'
   var twitter           = `https://twitter.com/${username}`
   var github            = `https://github.com/${username}`

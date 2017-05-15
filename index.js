@@ -34,9 +34,6 @@ var css = csjs`
   height: 280px;
   padding: 1em;
 }
-.card:hover {
-  cursor: pointer;
-}
 .cardContainer,
 .cardContainer_hover {
   display: flex;
@@ -82,6 +79,9 @@ var css = csjs`
   font-size: 2em;
   padding: .3em;
 }
+.cardSocial_fontawesome:hover {
+  opacity: 0.9;
+}
 .cardProjects {
   margin-top: .8em;
   padding: .5em 1em;
@@ -90,6 +90,10 @@ var css = csjs`
   border-radius: 3px;
   background-color: ${green};
   color: white;
+}
+.cardProjects:hover {
+  opacity: 0.9;
+  cursor: pointer;
 }
 @keyframes transitionIn {
   0% {opacity: 0.1}
